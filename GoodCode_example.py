@@ -1,7 +1,6 @@
 # play tictactoe randomly
 import numpy as np
 
-# different test
 def check_available_moves(board: np.array) -> list:
     """Checks the board for available moves. If a place on the board is 0, then it is available. Else it is occupied by a player.
 
